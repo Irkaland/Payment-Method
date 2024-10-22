@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.payment-method {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  background: linear-gradient(
+    90deg,
+    rgba(58, 169, 211, 1) 9%,
+    rgba(39, 32, 163, 1) 87%
+  );
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(30, 25, 112, 1) 24%,
+    rgb(32, 80, 147) 56%,
+    rgba(19, 151, 181, 0.815) 94%
+  );
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid floralwhite;
+  padding: 8px;
+  border-radius: 10px;
+  padding-right: 8px;
+}
+
+.paragraph-title {
+  font-family: "Oxanium", sans-serif;
+  font-weight: 700;
+  color: floralwhite;
+}
+
+.label {
+  font-family: "Oxanium", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: floralwhite;
+}
+
+.input {
+  width: 70%;
+  padding: 3px;
+  outline: none;
+  border-radius: 6px;
+  border-color: floralwhite;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-size: 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.option {
+  font-family: "Oxanium", sans-serif;
+}
+
+#country-optgroup-Caucasus {
+  font-family: "Oxanium", sans-serif;
+}
+
+#select-a-country {
+  font-family: "Oxanium", sans-serif;
+}
+
+.card-type {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid floralwhite;
+  padding: 3px;
+}
+
+.radio-btn {
+  display: flex;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .payment-method {
+    height: 100dvh;
+  }
+  .main {
+    width: 80%;
+    height: auto;
+  }
+  .paragraph-title {
+    font-size: 12px;
+  }
+  .label {
+    font-size: 10px;
+  }
+  .input {
+    width: 65%;
+    padding: 2px;
+  }
+  input::placeholder {
+    font-size: 8px;
+  }
+  img {
+    width: 24px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+  .payment-method {
+    height: 100dvh;
+  }
+  .main {
+    width: 80%;
+    height: auto;
+  }
+  .paragraph-title {
+    font-size: 14px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .input {
+    width: 70%;
+    padding: 3px;
+  }
+  input::placeholder {
+    font-size: 8px;
+  }
+  img {
+    width: 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .payment-method {
+    height: 100dvh;
+  }
+  .main {
+    width: 80%;
+    height: auto;
+  }
+  .paragraph-title {
+    font-size: 16px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .input {
+    width: 70%;
+    padding: 4px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  img {
+    width: 32px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .payment-method {
+    height: 100dvh;
+  }
+  .main {
+    width: 60%;
+    height: auto;
+  }
+  .paragraph-title {
+    font-size: 16px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .input {
+    width: 70%;
+    padding: 4px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  img {
+    width: 32px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .payment-method {
+    height: 100dvh;
+  }
+  .main {
+    width: 30%;
+    height: auto;
+  }
+  .paragraph-title {
+    font-size: 16px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .input {
+    width: 70%;
+    padding: 2px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  img {
+    width: 32px;
+  }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Payment Method</title>
+    <link
+      rel="icon"
+      href="credit-card.png" />
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <div class="payment-method">
+      <main class="main">
+        <p class="paragraph-title">Step 1: Your Details</p>
+        <form class="form">
+          <div class="input-wrapper">
+            <label
+              for="full-name"
+              class="label"
+              >Full Name:</label
+            >
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder="First and Last Name"
+              class="input" />
+          </div>
+          <div class="input-wrapper">
+            <label
+              for="email"
+              class="label"
+              >Email:</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@domain.com"
+              class="input" />
+          </div>
+          <div class="input-wrapper">
+            <label
+              for="phone"
+              class="label"
+              >Phone Number:</label
+            >
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Eg. +995 5XX XX XX XX"
+              class="input" />
+          </div>
+        </form>
+        <p class="paragraph-title">Step 2: Delivery Address</p>
+        <form class="form">
+          <div class="input-wrapper">
+            <label
+              for="address"
+              class="label"
+              >Address:</label
+            >
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Enter Your Address"
+              class="input" />
+          </div>
+          <div class="input-wrapper">
+            <label
+              for="post-code"
+              class="label"
+              >Post Code:</label
+            >
+            <input
+              type="number"
+              id="post-code"
+              name="post-code"
+              placeholder="Type Your Post Code Number"
+              class="input" />
+          </div>
+          <div class="input-wrapper">
+            <label
+              for="country"
+              class="label"
+              >Country:</label
+            >
+            <select
+              type="text"
+              id="country"
+              name="country"
+              class="input">
+              <option
+                value="0"
+                id="select-a-country"
+                label="Select a country ... "
+                selected="selected">
+                Select a country ...
+              </option>
+              <optgroup
+                id="country-optgroup-Caucasus"
+                label="Caucasus">
+                <option
+                  value="GE"
+                  label="Georgia"
+                  class="option">
+                  Georgia
+                </option>
+                <option
+                  value="ARM"
+                  label="Armenia"
+                  class="option">
+                  Armenia
+                </option>
+                <option
+                  value="AZR"
+                  label="Azerbaijan"
+                  class="option">
+                  Azerbaijan
+                </option>
+                <option
+                  value="RUS"
+                  label="Russia"
+                  class="option">
+                  Russia
+                </option>
+              </optgroup>
+            </select>
+          </div>
+        </form>
+        <p class="paragraph-title">Step 3: Card Details</p>
+        <form class="form">
+          <div class="input-wrapper">
+            <label
+              for="card-number"
+              class="label"
+              >Card number:</label
+            >
+            <input
+              type="number"
+              id="card-number"
+              name="card-number"
+              placeholder="Eg. XXXX XXXX XXXX XXXX"
+              class="input" />
+          </div>
+          <div class="input-wrapper">
+            <label
+              for="cvc"
+              class="label"
+              >Security Code:</label
+            >
+            <input
+              type="number"
+              id="cvc"
+              name="cvc"
+              placeholder="CVC"
+              class="input" />
+          </div>
+          <div class="input-wrapper">
+            <label
+              for="name-on-card"
+              class="label"
+              >Name on Card:</label
+            >
+            <input
+              type="text"
+              id="name-on-card"
+              name="name-on-card"
+              placeholder="Exact name as on the card"
+              class="input" />
+          </div>
+          <div class="card-type">
+            <div class="radio-btn">
+              <input
+                type="radio"
+                id="visa"
+                name="card-type" />
+              <label for="visa"
+                ><img
+                  src="visa.png"
+                  alt="visa-icon"
+                  class="card-icon"
+              /></label>
+            </div>
+            <div class="radio-btn">
+              <input
+                type="radio"
+                id="mastercard"
+                name="card-type" />
+              <label for="mastercard"
+                ><img
+                  src="mastercard.png"
+                  alt="mastercard-icon"
+              /></label>
+            </div>
+            <div class="radio-btn">
+              <input
+                type="radio"
+                id="amex"
+                name="card-type" />
+              <label for="amex"
+                ><img
+                  src="amex.png"
+                  alt="amex-icon"
+              /></label>
+            </div>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
